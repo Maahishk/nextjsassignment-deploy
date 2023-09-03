@@ -1,5 +1,5 @@
 "use client";
-import react from "react";
+
 import Providers from "@/utils/QueryProvider";
 
 export default function ShopLayout({
