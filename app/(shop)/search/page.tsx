@@ -23,7 +23,7 @@ const Search = () => {
   });
   store.dispatch(setStartupProduct);
 
-  if (error) return <p>{error.message}</p>;
+  // if (error) return <p>{error.message}</p>;
   if (isLoading) return <p>Loading...</p>;
 
   return (
