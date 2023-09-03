@@ -9,13 +9,8 @@ import NavBar from "@/components/nav/Nav";
 import { RecoilRoot } from "recoil";
 
 interface RootLayoutProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
-
-export const metadata: Metadata = {
-  title: "OnlineStore",
-  description: "An E-commerce Application",
-};
 
 const RootLayout: React.FC<RootLayoutProps> = (props) => {
   return (
