@@ -1,5 +1,3 @@
-"use client";
-
 import { NextResponse } from "next/server";
 import { useQuery } from "@tanstack/react-query";
 import { Products } from "@/type";
