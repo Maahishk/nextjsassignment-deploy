@@ -1,6 +1,5 @@
 "use client";
-
-import { Provider } from "react-redux";
+import react from "react";
 import Providers from "@/utils/QueryProvider";
 
 export default function ShopLayout({
